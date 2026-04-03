@@ -15,10 +15,7 @@
       "database_id": "e828ef38-0bf8-49c7-9015-80f5f7400f78"
     }
   ],
-  "vars": {
-    "TEAM_DOMAIN": "",
-    "POLICY_AUD": ""
-  },
+  "vars": {},
   "observability": {
     "enabled": true
   }
