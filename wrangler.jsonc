@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "todo-app",
+  "main": "./src/worker/index.ts",
+  "compatibility_date": "2026-04-03",
+  "account_id": "a18e74d1f573a29e1f879da6305cec04",
+  "assets": {
+    "directory": "./dist/client",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "todo-db",
+      "database_id": "e828ef38-0bf8-49c7-9015-80f5f7400f78"
+    }
+  ],
+  "vars": {
+    "TEAM_DOMAIN": "",
+    "POLICY_AUD": ""
+  },
+  "observability": {
+    "enabled": true
+  }
+}
